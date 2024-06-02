@@ -24,7 +24,7 @@ This repository contains a FastAPI application that provides an endpoint for tra
 git clone https://github.com/Roshan835/Audio-Transcription-API-.git
 ```
 
-### Using Uvicorn Directly
+## Using Uvicorn Directly
 
 Make sure you have Python and the required packages installed. You can create a virtual environment for this.
 
@@ -45,7 +45,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ### Running the Application
 You can run the application either using Docker/ Docker Compose or directly with Uvicorn.
 
-### Using Docker
+## Using Docker
 ### Build the Docker Image
 ``sh
 docker build -t transcribe_api_img .
