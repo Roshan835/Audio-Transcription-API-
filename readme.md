@@ -33,7 +33,7 @@ Make sure you have Python and the required packages installed. You can create a 
 python -m venv env
 
 # Activate the virtual environment
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
+env/Scripts/activate  # On Ubuntu, use `source env/bin/activate`
 
 # Install the requirements
 pip install -r requirements.txt
