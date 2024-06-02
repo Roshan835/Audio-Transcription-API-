@@ -47,9 +47,9 @@ You can run the application either using Docker/ Docker Compose or directly with
 
 ## Using Docker
 ### Build the Docker Image
-``sh
+```sh
 docker build -t transcribe_api_img .
-``
+```
 ### Run the Docker Container
 ```sh
 docker run -p 8000:8000 transcribe_api_img
