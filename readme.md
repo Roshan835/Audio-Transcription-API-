@@ -42,6 +42,22 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
+##Running the Application
+You can run the application either using Docker/ Docker Compose or directly with Uvicorn.
+
+###Using Docker
+###Build the Docker Image
+``sh
+docker build -t transcribe_api_img .
+``
+###Run the Docker Container
+```sh
+docker run -p 8000:8000 transcribe_api_img
+```
+### Using Docker Compose
+```sh
+docker-compose up --build 
+```
 ### Accessing the API
 Once the container or application is running, you can access the API documentation at 'http://localhost:8000/docs'.
 
