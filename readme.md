@@ -11,10 +11,10 @@ This repository contains a FastAPI application that provides an endpoint for tra
 
 ## Requirements
 
-fastapi
-aiofiles
-python-multipart
-uvicorn
+- fastapi
+- aiofiles
+- python-multipart
+- uvicorn
 
 ## Getting Started
 
