@@ -42,7 +42,7 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-##Running the Application
+###Running the Application
 You can run the application either using Docker/ Docker Compose or directly with Uvicorn.
 
 ###Using Docker
